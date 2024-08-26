@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Monserrat;
+    src: url("/public/assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("/public/assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+:root {
+    --primary-red: #be2623;
+    --secondary-red: #da211e;
+}
+.primary-red {
+    background-color: var(--primary-red);
+}
+.secondary-red {
+    background-color: var(--secondary-red);
+}
+.text-primary-red {
+    color: var(--primary-red);
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.monserrat {
+    font-family: Monserrat, sans-serif;
+}
